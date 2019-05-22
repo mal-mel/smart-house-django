@@ -8,7 +8,7 @@ from .models import Setting
 
 celery = Celery('tasks', broker='amqp://localhost//')
 header = {
-        'Authorization': 'Bearer 77ca72a6c84222329dfb17e627212e8accda850dcebd6b484f74db76f1978b15'
+        'Authorization': 'Bearer secret;)'
     }
 
 
